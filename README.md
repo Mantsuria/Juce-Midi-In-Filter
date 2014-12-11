@@ -8,5 +8,4 @@ The aim of this project is to explore various functionalities of the JUCE Framew
 
 Also, the plugin allows storing and restoring parameter values.
 
-TODO: For some reason some host applications are not able to locate the build VST. For example, it works on JUCE VST Host application but Ableton Live
-does not recognise it.
+TODO: Add returned parameter names so a host may do something with them.
