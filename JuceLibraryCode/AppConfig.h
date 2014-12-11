@@ -228,10 +228,10 @@
  #define JucePlugin_ManufacturerEmail      "tunnelvision@tunnelvision.fi"
 #endif
 #ifndef  JucePlugin_ManufacturerCode
- #define JucePlugin_ManufacturerCode       ''
+ #define JucePlugin_ManufacturerCode       'TunV'
 #endif
 #ifndef  JucePlugin_PluginCode
- #define JucePlugin_PluginCode             ''
+ #define JucePlugin_PluginCode             'Jcdm'
 #endif
 #ifndef  JucePlugin_MaxNumInputChannels
  #define JucePlugin_MaxNumInputChannels    0
