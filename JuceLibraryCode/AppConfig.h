@@ -222,16 +222,16 @@
  #define JucePlugin_Manufacturer           "TunnelVision"
 #endif
 #ifndef  JucePlugin_ManufacturerWebsite
- #define JucePlugin_ManufacturerWebsite    ""
+ #define JucePlugin_ManufacturerWebsite    "www.tunnelvision.fi"
 #endif
 #ifndef  JucePlugin_ManufacturerEmail
- #define JucePlugin_ManufacturerEmail      ""
+ #define JucePlugin_ManufacturerEmail      "tunnelvision@tunnelvision.fi"
 #endif
 #ifndef  JucePlugin_ManufacturerCode
- #define JucePlugin_ManufacturerCode       'Manu'
+ #define JucePlugin_ManufacturerCode       ''
 #endif
 #ifndef  JucePlugin_PluginCode
- #define JucePlugin_PluginCode             'Plug'
+ #define JucePlugin_PluginCode             ''
 #endif
 #ifndef  JucePlugin_MaxNumInputChannels
  #define JucePlugin_MaxNumInputChannels    0
@@ -255,7 +255,7 @@
  #define JucePlugin_SilenceInProducesSilenceOut  0
 #endif
 #ifndef  JucePlugin_EditorRequiresKeyboardFocus
- #define JucePlugin_EditorRequiresKeyboardFocus  0
+ #define JucePlugin_EditorRequiresKeyboardFocus  1
 #endif
 #ifndef  JucePlugin_Version
  #define JucePlugin_Version                1.0.0

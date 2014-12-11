@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>177CFFB9-1138-4385-BB4D-8A5C0A9355DC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Juce-Midi-In-Filter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>184CCF01CF03B9DFAFA8F74B0F69F8856A963B7F</key>
+		<string>https://github.com/Mantsuria/Juce-Midi-In-Filter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Builds/MacOSX/Juce-Midi-In-Filter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>184CCF01CF03B9DFAFA8F74B0F69F8856A963B7F</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Mantsuria/Juce-Midi-In-Filter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>184CCF01CF03B9DFAFA8F74B0F69F8856A963B7F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>184CCF01CF03B9DFAFA8F74B0F69F8856A963B7F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Juce-Midi-In-Filter</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -4,13 +4,14 @@
               version="1.0.0" bundleIdentifier="com.tunnelvision.JuceMidiInFilter"
               includeBinaryInAppConfig="1" buildVST="1" buildVST3="0" buildAU="0"
               buildRTAS="0" buildAAX="0" pluginName="Juce-Midi-In-Filter" pluginDesc="Juce-Midi-In-Filter"
-              pluginManufacturer="TunnelVision" pluginManufacturerCode="Manu"
-              pluginCode="Plug" pluginChannelConfigs="{0, 0}" pluginIsSynth="0"
-              pluginWantsMidiIn="1" pluginProducesMidiOut="1" pluginSilenceInIsSilenceOut="0"
-              pluginEditorRequiresKeys="0" pluginAUExportPrefix="JuceMidiInFilterAU"
-              pluginRTASCategory="" aaxIdentifier="com.yourcompany.JuceMidiInFilter"
-              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="3.1.0"
-              userNotes="Through This VST plugin you are able to do two two things: 1) adjust received midi volume and 2) choose receiving midi channel.">
+              pluginManufacturer="TunnelVision" pluginManufacturerCode="" pluginCode=""
+              pluginChannelConfigs="{0, 0}" pluginIsSynth="0" pluginWantsMidiIn="1"
+              pluginProducesMidiOut="1" pluginSilenceInIsSilenceOut="0" pluginEditorRequiresKeys="1"
+              pluginAUExportPrefix="JuceMidiInFilterAU" pluginRTASCategory=""
+              aaxIdentifier="com.yourcompany.JuceMidiInFilter" pluginAAXCategory="AAX_ePlugInCategory_Dynamics"
+              jucerVersion="3.1.0" userNotes="This VST plugin allows you to do two two things: 1) adjust received midi volume and 2) choose receiving midi channel."
+              companyName="www.tunnelvision.fi" companyWebsite="www.tunnelvision.fi"
+              companyEmail="tunnelvision@tunnelvision.fi">
   <MAINGROUP id="XcNTB8" name="Juce-Midi-In-Filter">
     <GROUP id="{8FD697FE-DC85-2A23-1E2E-88874EAB7888}" name="Source">
       <FILE id="cUAkrr" name="PluginEditor.cpp" compile="1" resource="0"
@@ -48,30 +49,6 @@
         <MODULEPATH id="juce_audio_plugin_client" path="../../../../../Developer/JUCE-OSX/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
-    <VS2012 targetFolder="Builds/VisualStudio2012" vstFolder="c:\SDKs\vstsdk2.4">
-      <CONFIGURATIONS>
-        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
-                       isDebug="1" optimisation="1" targetName="Juce-Midi-In-Filter"/>
-        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
-                       isDebug="0" optimisation="2" targetName="Juce-Midi-In-Filter"/>
-      </CONFIGURATIONS>
-      <MODULEPATHS>
-        <MODULEPATH id="juce_video" path="../../../../../Developer/JUCE-OSX/modules"/>
-        <MODULEPATH id="juce_opengl" path="../../../../../Developer/JUCE-OSX/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="../../../../../Developer/JUCE-OSX/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="../../../../../Developer/JUCE-OSX/modules"/>
-        <MODULEPATH id="juce_graphics" path="../../../../../Developer/JUCE-OSX/modules"/>
-        <MODULEPATH id="juce_events" path="../../../../../Developer/JUCE-OSX/modules"/>
-        <MODULEPATH id="juce_data_structures" path="../../../../../Developer/JUCE-OSX/modules"/>
-        <MODULEPATH id="juce_cryptography" path="../../../../../Developer/JUCE-OSX/modules"/>
-        <MODULEPATH id="juce_core" path="../../../../../Developer/JUCE-OSX/modules"/>
-        <MODULEPATH id="juce_audio_processors" path="../../../../../Developer/JUCE-OSX/modules"/>
-        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../Developer/JUCE-OSX/modules"/>
-        <MODULEPATH id="juce_audio_formats" path="../../../../../Developer/JUCE-OSX/modules"/>
-        <MODULEPATH id="juce_audio_devices" path="../../../../../Developer/JUCE-OSX/modules"/>
-        <MODULEPATH id="juce_audio_basics" path="../../../../../Developer/JUCE-OSX/modules"/>
-      </MODULEPATHS>
-    </VS2012>
   </EXPORTFORMATS>
   <MODULES>
     <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>

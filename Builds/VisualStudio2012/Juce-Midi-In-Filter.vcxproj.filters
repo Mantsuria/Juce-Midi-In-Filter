@@ -322,7 +322,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\..\Developer\JUCE-Projects\Juce-Midi-In-Filter\Source\PluginEditor.cpp">
+    <ClCompile Include="..\..\Source\PluginEditor.cpp">
       <Filter>Juce-Midi-In-Filter\Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\PluginProcessor.cpp">
@@ -1572,7 +1572,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\..\Developer\JUCE-Projects\Juce-Midi-In-Filter\Source\PluginEditor.h">
+    <ClInclude Include="..\..\Source\PluginEditor.h">
       <Filter>Juce-Midi-In-Filter\Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\PluginProcessor.h">

@@ -52,8 +52,6 @@ public:
     void sliderValueChanged (Slider* sliderThatWasMoved);
 
     // Binary resources:
-    static const char* aie_logo_txt_gif;
-    static const int aie_logo_txt_gifSize;
     static const char* aie_logo_bg_jpg;
     static const int aie_logo_bg_jpgSize;
 
@@ -68,7 +66,6 @@ private:
     ScopedPointer<Slider> midiVolumeSlider;
     ScopedPointer<Label> midiFilter;
     Image cachedImage_aie_logo_bg_jpg;
-    Image cachedImage_aie_logo_txt_gif;
 
 
     //==============================================================================

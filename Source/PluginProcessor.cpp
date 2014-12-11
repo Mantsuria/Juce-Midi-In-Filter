@@ -182,16 +182,24 @@ void JuceMidiInFilterAudioProcessor::getStateInformation (MemoryBlock& destData)
     // You should use this method to store your parameters in the memory block.
     // Here's an example of how you can use XML to make it easy and more robust:
     
+    DBG("Call from getStateInformation");
+    
     // Create an outer XML element..
-    XmlElement xml ("MIDIFILTERSETTINGS");
+    XmlElement xml ("MYPLUGINSETTINGS");
     // sliders
     xml.setAttribute ("sliderVolume", noteOnVelocity);
     xml.setAttribute ("midiChannel", midiChannel);
+    
+    // then use this helper function to stuff it into the binary blob and return it..
+    copyXmlToBinary (xml, destData);
     
 }
 
 void JuceMidiInFilterAudioProcessor::setStateInformation (const void* data, int sizeInBytes)
 {
+    
+    DBG("Call from setStateInformation");
+    
     // You should use this method to restore your parameters from this memory block,
     // whose contents will have been created by the getStateInformation() call.
     //Load UserParams/Data from file
@@ -201,14 +209,14 @@ void JuceMidiInFilterAudioProcessor::setStateInformation (const void* data, int 
     {
         DBG("Call from setStateInformation != nullprt");
         // make sure that it's actually our type of XML object..
-        if (xmlState->hasTagName ("MIDIFILTERSETTINGS"))
+        if (xmlState->hasTagName ("MYPLUGINSETTINGS"))
         {
             DBG("Call from setStateInformation == hasTagName");
             // ok, now pull out our parameters
             
             // sliders
-            noteOnVelocity = (double) xmlState->getDoubleAttribute("slider1Val", noteOnVelocity);
-            midiChannel = (int) xmlState->getDoubleAttribute("slider2Val", midiChannel);
+            noteOnVelocity = (float) xmlState->getDoubleAttribute("sliderVolume", noteOnVelocity);
+            midiChannel = (int) xmlState->getDoubleAttribute("midiChannel", midiChannel);
             
         }
     }
